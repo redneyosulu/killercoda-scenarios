@@ -1,0 +1,34 @@
+{
+  "title": "Düşen Testte Gerçekten Duran Hat Kur",
+  "description": "Ucuz kontroller yavaş derlemelerden önce koşacak aşamaları sıralamak",
+  "details": {
+    "intro": {
+      "text": "intro.md",
+      "background": "setup-bg.sh",
+      "foreground": "setup-fg.sh"
+    },
+    "steps": [
+      {
+        "title": "Aşamaları maliyet sırasına diz",
+        "text": "step1/text.md",
+        "verify": "step1/verify.sh"
+      },
+      {
+        "title": "Gerçek arıza sok",
+        "text": "step2/text.md",
+        "verify": "step2/verify.sh"
+      },
+      {
+        "title": "Onar, yeşili göster",
+        "text": "step3/text.md",
+        "verify": "step3/verify.sh"
+      }
+    ],
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "backend": {
+    "imageid": "ubuntu"
+  }
+}

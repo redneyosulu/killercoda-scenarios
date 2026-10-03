@@ -1,0 +1,34 @@
+{
+  "title": "Ortam ve Birim Kaynaklı Açılış Arızasını Teşhis Et",
+  "description": "Servis tanımını okuyup başlatma davranışını tahmin etmek",
+  "details": {
+    "intro": {
+      "text": "intro.md",
+      "background": "setup-bg.sh",
+      "foreground": "setup-fg.sh"
+    },
+    "steps": [
+      {
+        "title": "İki arıza yerleştir",
+        "text": "step1/text.md",
+        "verify": "step1/verify.sh"
+      },
+      {
+        "title": "Oku, henüz yeniden başlatma",
+        "text": "step2/text.md",
+        "verify": "step2/verify.sh"
+      },
+      {
+        "title": "Arıza sırasında düzelt ve doğrula",
+        "text": "step3/text.md",
+        "verify": "step3/verify.sh"
+      }
+    ],
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "backend": {
+    "imageid": "ubuntu"
+  }
+}

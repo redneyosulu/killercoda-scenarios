@@ -1,0 +1,34 @@
+{
+  "title": "Küçük Servise Tekrarlanabilir Root-dışı İmaj Derle",
+  "description": "Önbellekli katmanlı ve sabit tabanlı çok aşamalı Dockerfile yazmak",
+  "details": {
+    "intro": {
+      "text": "intro.md",
+      "background": "setup-bg.sh",
+      "foreground": "setup-fg.sh"
+    },
+    "steps": [
+      {
+        "title": "Önce saf imajı çıkar",
+        "text": "step1/text.md",
+        "verify": "step1/verify.sh"
+      },
+      {
+        "title": "Düzgün yeniden derle",
+        "text": "step2/text.md",
+        "verify": "step2/verify.sh"
+      },
+      {
+        "title": "Root-dışını ve tekrarlanabilirliği kanıtla",
+        "text": "step3/text.md",
+        "verify": "step3/verify.sh"
+      }
+    ],
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "backend": {
+    "imageid": "ubuntu"
+  }
+}

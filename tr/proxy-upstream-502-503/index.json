@@ -1,0 +1,34 @@
+{
+  "title": "Proksi-Upstream Bağlantısında 502/503 Nedenini Bul",
+  "description": "502 ve 503 hatalarını istek üzerine üretip loglardan ayırmak",
+  "details": {
+    "intro": {
+      "text": "intro.md",
+      "background": "setup-bg.sh",
+      "foreground": "setup-fg.sh"
+    },
+    "steps": [
+      {
+        "title": "Çifti kur",
+        "text": "step1/text.md",
+        "verify": "step1/verify.sh"
+      },
+      {
+        "title": "İki kez boz, iki yanı da oku",
+        "text": "step2/text.md",
+        "verify": "step2/verify.sh"
+      },
+      {
+        "title": "Yalnızca upstream'i düzelt",
+        "text": "step3/text.md",
+        "verify": "step3/verify.sh"
+      }
+    ],
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "backend": {
+    "imageid": "ubuntu"
+  }
+}

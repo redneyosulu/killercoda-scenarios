@@ -1,0 +1,34 @@
+{
+  "title": "Sağlık, SIGTERM ve Limitlerle Güvenli Durmayı Doğrula",
+  "description": "Isınmayı kapsayan gerçek bağımlılık yollu hazır kontrolü eklemek",
+  "details": {
+    "intro": {
+      "text": "intro.md",
+      "background": "setup-bg.sh",
+      "foreground": "setup-fg.sh"
+    },
+    "steps": [
+      {
+        "title": "Gerçek sağlık kontrolü ekle",
+        "text": "step1/text.md",
+        "verify": "step1/verify.sh"
+      },
+      {
+        "title": "Zarif durmayı kanıtla",
+        "text": "step2/text.md",
+        "verify": "step2/verify.sh"
+      },
+      {
+        "title": "Kaynakları sınırla",
+        "text": "step3/text.md",
+        "verify": "step3/verify.sh"
+      }
+    ],
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "backend": {
+    "imageid": "ubuntu"
+  }
+}

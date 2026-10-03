@@ -1,0 +1,34 @@
+{
+  "title": "Deneme Tarama Raporunu Risk ve İşe Yarar Düzeltmeyle Ayıkla",
+  "description": "Her bulguyu ulaşılabilirlik, sömürülebilirlik ve patlama alanıyla sıralamak",
+  "details": {
+    "intro": {
+      "text": "intro.md",
+      "background": "setup-bg.sh",
+      "foreground": "setup-fg.sh"
+    },
+    "steps": [
+      {
+        "title": "Gerçek riske göre sırala",
+        "text": "step1/text.md",
+        "verify": "step1/verify.sh"
+      },
+      {
+        "title": "İşe yarayanı düzelt",
+        "text": "step2/text.md",
+        "verify": "step2/verify.sh"
+      },
+      {
+        "title": "Kalanı düzgün kabul et",
+        "text": "step3/text.md",
+        "verify": "step3/verify.sh"
+      }
+    ],
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "backend": {
+    "imageid": "ubuntu"
+  }
+}
