@@ -1,0 +1,29 @@
+{
+  "title": "YAML from Dry-Run",
+  "description": "Generate Pod, Deployment and Service manifests without typing them",
+  "details": {
+    "intro": {
+      "text": "intro.md",
+      "background": "setup-bg.sh",
+      "foreground": "setup-fg.sh"
+    },
+    "steps": [
+      {
+        "title": "Generate everything",
+        "text": "step1/text.md",
+        "verify": "step1/verify.sh"
+      },
+      {
+        "title": "Loop it",
+        "text": "step2/text.md",
+        "verify": "step2/verify.sh"
+      }
+    ],
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "backend": {
+    "imageid": "kubernetes-kubeadm-1node"
+  }
+}
