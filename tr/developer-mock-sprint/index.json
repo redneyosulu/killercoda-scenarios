@@ -1,0 +1,34 @@
+{
+  "title": "Geliştirici deneme sürati",
+  "description": "Görevleri uygulamadan dışarı sıralar, tavanlı ve üret-dğrula disipliniyle koşar, hataları kutuplara göre inceler.",
+  "details": {
+    "intro": {
+      "text": "intro.md",
+      "background": "setup-bg.sh",
+      "foreground": "setup-fg.sh"
+    },
+    "steps": [
+      {
+        "title": "Uygulamadan dışarı sırala",
+        "text": "step1/text.md",
+        "verify": "step1/verify.sh"
+      },
+      {
+        "title": "Tavanlı koş",
+        "text": "step2/text.md",
+        "verify": "step2/verify.sh"
+      },
+      {
+        "title": "Kutup incelemesi",
+        "text": "step3/text.md",
+        "verify": "step3/verify.sh"
+      }
+    ],
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "backend": {
+    "imageid": "kubernetes-kubeadm-1node"
+  }
+}

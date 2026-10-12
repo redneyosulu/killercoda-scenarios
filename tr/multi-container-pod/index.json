@@ -1,0 +1,29 @@
+{
+  "title": "Çok kapsayıcılı pod",
+  "description": "Ana kapsayıcının loglarını paylaşılan birimle taşıyan yardımcı kurar, istek ve sınırları ölçülü biçer.",
+  "details": {
+    "intro": {
+      "text": "intro.md",
+      "background": "setup-bg.sh",
+      "foreground": "setup-fg.sh"
+    },
+    "steps": [
+      {
+        "title": "Yardımcı log taşıyıcı",
+        "text": "step1/text.md",
+        "verify": "step1/verify.sh"
+      },
+      {
+        "title": "Ölçülü biç",
+        "text": "step2/text.md",
+        "verify": "step2/verify.sh"
+      }
+    ],
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "backend": {
+    "imageid": "kubernetes-kubeadm-1node"
+  }
+}

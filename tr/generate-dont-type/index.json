@@ -1,0 +1,29 @@
+{
+  "title": "Yazmadan üret",
+  "description": "Pod, Deployment ve Service YAML dosyalarını emir komutlarından üretir, farkı düzenler, geçerler ve uygular.",
+  "details": {
+    "intro": {
+      "text": "intro.md",
+      "background": "setup-bg.sh",
+      "foreground": "setup-fg.sh"
+    },
+    "steps": [
+      {
+        "title": "Üç dosya, sıfır yazım",
+        "text": "step1/text.md",
+        "verify": "step1/verify.sh"
+      },
+      {
+        "title": "Farkı düzenle",
+        "text": "step2/text.md",
+        "verify": "step2/verify.sh"
+      }
+    ],
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "backend": {
+    "imageid": "kubernetes-kubeadm-1node"
+  }
+}

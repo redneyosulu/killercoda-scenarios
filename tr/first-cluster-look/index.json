@@ -1,0 +1,34 @@
+{
+  "title": "Kümeye ilk bakış",
+  "description": "Düğüm durumu ve sürümü okur, kontrol düzlemi podlarını sayar, kubeconfig bağlamları arası güvenle geçer.",
+  "details": {
+    "intro": {
+      "text": "intro.md",
+      "background": "setup-bg.sh",
+      "foreground": "setup-fg.sh"
+    },
+    "steps": [
+      {
+        "title": "Düğümler ve sürüm",
+        "text": "step1/text.md",
+        "verify": "step1/verify.sh"
+      },
+      {
+        "title": "Kontrol düzlemi envanteri",
+        "text": "step2/text.md",
+        "verify": "step2/verify.sh"
+      },
+      {
+        "title": "Bağlam güvenliği",
+        "text": "step3/text.md",
+        "verify": "step3/verify.sh"
+      }
+    ],
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "backend": {
+    "imageid": "kubernetes-kubeadm-1node"
+  }
+}

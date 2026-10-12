@@ -1,0 +1,29 @@
+{
+  "title": "Yapılandırma ve gizliler",
+  "description": "ConfigMap'i iki yolla kurar, gizli değeri hiç yazdırmadan bağlar, uygulamanın ikisini de içeriden gördüğünü kanıtlar.",
+  "details": {
+    "intro": {
+      "text": "intro.md",
+      "background": "setup-bg.sh",
+      "foreground": "setup-fg.sh"
+    },
+    "steps": [
+      {
+        "title": "İki yolla ConfigMap",
+        "text": "step1/text.md",
+        "verify": "step1/verify.sh"
+      },
+      {
+        "title": "Gizli hijyeni",
+        "text": "step2/text.md",
+        "verify": "step2/verify.sh"
+      }
+    ],
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "backend": {
+    "imageid": "kubernetes-kubeadm-1node"
+  }
+}

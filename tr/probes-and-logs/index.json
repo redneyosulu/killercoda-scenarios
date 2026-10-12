@@ -1,0 +1,29 @@
+{
+  "title": "Sondajlar ve loglar",
+  "description": "Yavaş başlayana üç sondajı sıfır yeniden başlatmayla uyar, iki kapsayıcılı podda suçluyu bulur.",
+  "details": {
+    "intro": {
+      "text": "intro.md",
+      "background": "setup-bg.sh",
+      "foreground": "setup-fg.sh"
+    },
+    "steps": [
+      {
+        "title": "Yavaş başlayan, doğru sondaj",
+        "text": "step1/text.md",
+        "verify": "step1/verify.sh"
+      },
+      {
+        "title": "Log kimin",
+        "text": "step2/text.md",
+        "verify": "step2/verify.sh"
+      }
+    ],
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "backend": {
+    "imageid": "kubernetes-kubeadm-1node"
+  }
+}
