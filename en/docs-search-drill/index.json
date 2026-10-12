@@ -1,0 +1,29 @@
+{
+  "title": "Docs Search Drill",
+  "description": "Find any field in the official docs in under a minute",
+  "details": {
+    "intro": {
+      "text": "intro.md",
+      "background": "setup-bg.sh",
+      "foreground": "setup-fg.sh"
+    },
+    "steps": [
+      {
+        "title": "Timed search",
+        "text": "step1/text.md",
+        "verify": "step1/verify.sh"
+      },
+      {
+        "title": "Docs to cluster",
+        "text": "step2/text.md",
+        "verify": "step2/verify.sh"
+      }
+    ],
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "backend": {
+    "imageid": "kubernetes-kubeadm-1node"
+  }
+}

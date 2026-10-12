@@ -1,0 +1,29 @@
+{
+  "title": "Dry-Run ile YAML",
+  "description": "Pod, Deployment ve Service bildirimlerini yazmadan üretmek",
+  "details": {
+    "intro": {
+      "text": "intro.md",
+      "background": "setup-bg.sh",
+      "foreground": "setup-fg.sh"
+    },
+    "steps": [
+      {
+        "title": "Hepsini üret",
+        "text": "step1/text.md",
+        "verify": "step1/verify.sh"
+      },
+      {
+        "title": "Döngüyü tamamla",
+        "text": "step2/text.md",
+        "verify": "step2/verify.sh"
+      }
+    ],
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "backend": {
+    "imageid": "kubernetes-kubeadm-1node"
+  }
+}
